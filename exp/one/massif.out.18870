@@ -1,0 +1,1564 @@
+desc: (none)
+cmd: java one
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2862487
+mem_heap_B=13155
+mem_heap_extra_B=477
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=6027559
+mem_heap_B=13307
+mem_heap_extra_B=493
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=9395978
+mem_heap_B=27083028
+mem_heap_extra_B=21580
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=11438806
+mem_heap_B=28148980
+mem_heap_extra_B=21644
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=13765712
+mem_heap_B=29556571
+mem_heap_extra_B=45413
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=17296072
+mem_heap_B=30459420
+mem_heap_extra_B=45588
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=21123142
+mem_heap_B=30538372
+mem_heap_extra_B=48436
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=24692434
+mem_heap_B=30575945
+mem_heap_extra_B=51847
+mem_stacks_B=0
+heap_tree=detailed
+n4: 30575945 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29001570 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1214306 in 681 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 788761 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 282905 in 24 places, all below massif's threshold (1.00%)
+ n0: 416958 in 51 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=9
+#-----------
+time=27056919
+mem_heap_B=30672792
+mem_heap_extra_B=60200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=29104906
+mem_heap_B=30675008
+mem_heap_extra_B=60664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=31474837
+mem_heap_B=30702022
+mem_heap_extra_B=62106
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=34976502
+mem_heap_B=31121948
+mem_heap_extra_B=62900
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=36978521
+mem_heap_B=31121996
+mem_heap_extra_B=62932
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=39237460
+mem_heap_B=31122044
+mem_heap_extra_B=62964
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=41041122
+mem_heap_B=31154836
+mem_heap_extra_B=63012
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=43649655
+mem_heap_B=31154908
+mem_heap_extra_B=63060
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=45488002
+mem_heap_B=31163316
+mem_heap_extra_B=63132
+mem_stacks_B=0
+heap_tree=detailed
+n5: 31163316 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29054345 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1267081 in 700 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 821353 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 315497 in 25 places, all below massif's threshold (1.00%)
+ n2: 491648 0x52D91F2: ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 458416 0x52D8B35: Arena::grow(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 458416 in 11 places, all below massif's threshold (1.00%)
+  n0: 33232 in 3 places, all below massif's threshold (1.00%)
+ n0: 427314 in 66 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=18
+#-----------
+time=48944155
+mem_heap_B=31174109
+mem_heap_extra_B=65147
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=51678172
+mem_heap_B=31176509
+mem_heap_extra_B=65603
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=53109215
+mem_heap_B=31187999
+mem_heap_extra_B=70033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=55870936
+mem_heap_B=31182725
+mem_heap_extra_B=68075
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=58873935
+mem_heap_B=31183781
+mem_heap_extra_B=68211
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=61294455
+mem_heap_B=31183925
+mem_heap_extra_B=68243
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=64334989
+mem_heap_B=31220858
+mem_heap_extra_B=74830
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=67588627
+mem_heap_B=31247517
+mem_heap_extra_B=79907
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=71278932
+mem_heap_B=31290421
+mem_heap_extra_B=82459
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=74611567
+mem_heap_B=31341181
+mem_heap_extra_B=84563
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=77186929
+mem_heap_B=31343253
+mem_heap_extra_B=84691
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=79816795
+mem_heap_B=31344517
+mem_heap_extra_B=84875
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=83804263
+mem_heap_B=31344989
+mem_heap_extra_B=84915
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=85595587
+mem_heap_B=31345245
+mem_heap_extra_B=84947
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=88487824
+mem_heap_B=31370231
+mem_heap_extra_B=86689
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=90827094
+mem_heap_B=31381804
+mem_heap_extra_B=87260
+mem_stacks_B=0
+heap_tree=detailed
+n5: 31381804 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29231513 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1444249 in 726 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 860081 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 354225 in 26 places, all below massif's threshold (1.00%)
+ n2: 494808 0x52D91F2: ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 458416 0x52D8B35: Arena::grow(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 458416 in 11 places, all below massif's threshold (1.00%)
+  n0: 36392 in 3 places, all below massif's threshold (1.00%)
+ n0: 426746 in 69 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=34
+#-----------
+time=92847183
+mem_heap_B=31433845
+mem_heap_extra_B=88019
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=94836130
+mem_heap_B=31411133
+mem_heap_extra_B=88219
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=97571423
+mem_heap_B=31416293
+mem_heap_extra_B=88795
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=101210996
+mem_heap_B=31416941
+mem_heap_extra_B=88931
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=103270443
+mem_heap_B=31417957
+mem_heap_extra_B=89235
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=105063929
+mem_heap_B=31419421
+mem_heap_extra_B=89419
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=107725230
+mem_heap_B=31420077
+mem_heap_extra_B=89691
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=109594451
+mem_heap_B=31421413
+mem_heap_extra_B=89819
+mem_stacks_B=0
+heap_tree=detailed
+n5: 31421413 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29241801 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1454537 in 733 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 887793 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 381937 in 26 places, all below massif's threshold (1.00%)
+ n2: 496040 0x52D91F2: ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 458416 0x52D8B35: Arena::grow(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 458416 in 11 places, all below massif's threshold (1.00%)
+  n0: 37624 in 3 places, all below massif's threshold (1.00%)
+ n0: 427123 in 71 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=42
+#-----------
+time=112617605
+mem_heap_B=31423215
+mem_heap_extra_B=90097
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=114560730
+mem_heap_B=31424175
+mem_heap_extra_B=90185
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=117034807
+mem_heap_B=31426403
+mem_heap_extra_B=90365
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=118888445
+mem_heap_B=31427437
+mem_heap_extra_B=90587
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=121060596
+mem_heap_B=31428969
+mem_heap_extra_B=90719
+mem_stacks_B=0
+heap_tree=detailed
+n5: 31428969 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29248445 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1461181 in 737 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 888705 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 382849 in 28 places, all below massif's threshold (1.00%)
+ n2: 496040 0x52D91F2: ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 458416 0x52D8B35: Arena::grow(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 458416 in 11 places, all below massif's threshold (1.00%)
+  n0: 37624 in 3 places, all below massif's threshold (1.00%)
+ n0: 427123 in 71 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=47
+#-----------
+time=123244501
+mem_heap_B=31429966
+mem_heap_extra_B=90826
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=126693297
+mem_heap_B=31638205
+mem_heap_extra_B=91451
+mem_stacks_B=0
+heap_tree=detailed
+n5: 31638205 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29250945 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1463681 in 737 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 896897 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 391041 in 28 places, all below massif's threshold (1.00%)
+ n0: 625667 in 75 places, all below massif's threshold (1.00%)
+ n2: 496040 0x52D91F2: ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 458416 0x52D8B35: Arena::grow(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 458416 in 11 places, all below massif's threshold (1.00%)
+  n0: 37624 in 3 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=49
+#-----------
+time=128541299
+mem_heap_B=31642149
+mem_heap_extra_B=91811
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=130000354
+mem_heap_B=31642797
+mem_heap_extra_B=91987
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=133071923
+mem_heap_B=31677261
+mem_heap_extra_B=92259
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=134636519
+mem_heap_B=31939213
+mem_heap_extra_B=92387
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=136364234
+mem_heap_B=32102933
+mem_heap_extra_B=92467
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=137521285
+mem_heap_B=32138309
+mem_heap_extra_B=92619
+mem_stacks_B=0
+heap_tree=peak
+n5: 32138309 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29255169 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1467905 in 740 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 988200 0x52D91F2: ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 949576 0x52D8B35: Arena::grow(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 949576 in 25 places, all below massif's threshold (1.00%)
+  n0: 38624 in 3 places, all below massif's threshold (1.00%)
+ n2: 897505 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 391649 in 28 places, all below massif's threshold (1.00%)
+ n0: 628779 in 76 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=55
+#-----------
+time=139141548
+mem_heap_B=32138277
+mem_heap_extra_B=92787
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=140583512
+mem_heap_B=32138909
+mem_heap_extra_B=92891
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=142016843
+mem_heap_B=32142033
+mem_heap_extra_B=93423
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=143453188
+mem_heap_B=32142685
+mem_heap_extra_B=93595
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=144998398
+mem_heap_B=32143933
+mem_heap_extra_B=93715
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=146440684
+mem_heap_B=32150973
+mem_heap_extra_B=93995
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=161894105
+mem_heap_B=32152013
+mem_heap_extra_B=94131
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=163370491
+mem_heap_B=32152893
+mem_heap_extra_B=94331
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=164887025
+mem_heap_B=32153893
+mem_heap_extra_B=94451
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=166703957
+mem_heap_B=32154789
+mem_heap_extra_B=94483
+mem_stacks_B=0
+heap_tree=detailed
+n5: 32154789 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29270121 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1482857 in 743 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 988200 0x52D91F2: ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 949576 0x52D8B35: Arena::grow(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 949576 in 25 places, all below massif's threshold (1.00%)
+  n0: 38624 in 3 places, all below massif's threshold (1.00%)
+ n2: 899505 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 393649 in 28 places, all below massif's threshold (1.00%)
+ n0: 628307 in 76 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=65
+#-----------
+time=168147739
+mem_heap_B=32155157
+mem_heap_extra_B=94763
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=169989649
+mem_heap_B=32156125
+mem_heap_extra_B=94907
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=172142313
+mem_heap_B=32157037
+mem_heap_extra_B=95011
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=174050116
+mem_heap_B=32159181
+mem_heap_extra_B=95219
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=176599612
+mem_heap_B=32160429
+mem_heap_extra_B=95427
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=178140846
+mem_heap_B=32163973
+mem_heap_extra_B=95555
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=179574202
+mem_heap_B=32173445
+mem_heap_extra_B=95699
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=181188179
+mem_heap_B=32173141
+mem_heap_extra_B=95771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=221932976
+mem_heap_B=32172725
+mem_heap_extra_B=95779
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=319222870
+mem_heap_B=32173077
+mem_heap_extra_B=95971
+mem_stacks_B=0
+heap_tree=detailed
+n5: 32173077 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29276561 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1489297 in 744 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 991200 0x52D91F2: ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 949576 0x52D8B35: Arena::grow(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 949576 in 25 places, all below massif's threshold (1.00%)
+  n0: 41624 in 3 places, all below massif's threshold (1.00%)
+ n2: 900161 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 394305 in 28 places, all below massif's threshold (1.00%)
+ n0: 636499 in 77 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=75
+#-----------
+time=335337314
+mem_heap_B=32169577
+mem_heap_extra_B=95871
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=347044944
+mem_heap_B=32173673
+mem_heap_extra_B=95879
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=396506165
+mem_heap_B=32173705
+mem_heap_extra_B=95927
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=400046321
+mem_heap_B=32207961
+mem_heap_extra_B=95935
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=406671452
+mem_heap_B=32173825
+mem_heap_extra_B=95943
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=486013377
+mem_heap_B=32173321
+mem_heap_extra_B=95975
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=488253135
+mem_heap_B=31583617
+mem_heap_extra_B=95735
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=489778050
+mem_heap_B=31845505
+mem_heap_extra_B=95855
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=494071245
+mem_heap_B=31876393
+mem_heap_extra_B=96015
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=507652657
+mem_heap_B=31881081
+mem_heap_extra_B=96119
+mem_stacks_B=0
+heap_tree=detailed
+n5: 31881081 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29277733 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1490469 in 748 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 897681 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 391825 in 28 places, all below massif's threshold (1.00%)
+ n2: 695504 0x52D91F2: ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 654880 0x52D8B35: Arena::grow(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 654880 in 30 places, all below massif's threshold (1.00%)
+  n0: 40624 in 3 places, all below massif's threshold (1.00%)
+ n0: 641507 in 77 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=85
+#-----------
+time=509584995
+mem_heap_B=31927185
+mem_heap_extra_B=96111
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=511482668
+mem_heap_B=31929505
+mem_heap_extra_B=96111
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=514294113
+mem_heap_B=31929905
+mem_heap_extra_B=96111
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=520704513
+mem_heap_B=31913353
+mem_heap_extra_B=96119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=523105422
+mem_heap_B=32142729
+mem_heap_extra_B=96247
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=861333058
+mem_heap_B=32152849
+mem_heap_extra_B=96319
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=863641859
+mem_heap_B=32157085
+mem_heap_extra_B=96675
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=867963500
+mem_heap_B=32158029
+mem_heap_extra_B=96755
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=869488200
+mem_heap_B=32167405
+mem_heap_extra_B=96835
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=94
+#-----------
+time=871582502
+mem_heap_B=32171453
+mem_heap_extra_B=96891
+mem_stacks_B=0
+heap_tree=detailed
+n5: 32171453 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 29293265 0x52CB785: AllocateHeap(unsigned long, MemoryType, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 13631488 0x5612F30: G1CollectedHeap::G1CollectedHeap(G1CollectorPolicy*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5606A3D: CollectedHeap* GCArguments::create_heap_with_policy<G1CollectedHeap, G1CollectorPolicy>() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1C5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n1: 13631488 0x562D860: G1ConcurrentMark::G1ConcurrentMark(G1CollectedHeap*, G1RegionToSpaceMapper*, G1RegionToSpaceMapper*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 13631488 0x5617359: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 13631488 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 13631488 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 13631488 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 13631488 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 13631488 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 13631488 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 13631488 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+           n1: 13631488 0x492DAC2: start_thread (pthread_create.c:442)
+            n0: 13631488 0x49BEA03: clone (clone.S:100)
+  n0: 1506001 in 754 places, all below massif's threshold (1.00%)
+  n1: 524288 0x5C64DF7: StringTable::StringTable() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 524288 0x5D2C613: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 524288 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 524288 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 524288 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 524288 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+        n1: 524288 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 524288 0x492DAC2: start_thread (pthread_create.c:442)
+          n0: 524288 0x49BEA03: clone (clone.S:100)
+ n2: 957456 0x52D91F2: ChunkPool::allocate(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 916832 0x52D8B35: Arena::grow(unsigned long, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n0: 916832 in 30 places, all below massif's threshold (1.00%)
+  n0: 40624 in 3 places, all below massif's threshold (1.00%)
+ n2: 910601 0x52CB6CA: AllocateHeap(unsigned long, MemoryType, NativeCallStack const&, AllocFailStrategy::AllocFailEnum) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 505856 0x56EF4C5: OtherRegionsTable::OtherRegionsTable(HeapRegion*, Mutex*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 505856 0x56F1049: HeapRegionRemSet::HeapRegionRemSet(G1BlockOffsetTable*, HeapRegion*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 505856 0x56E52E3: HeapRegion::HeapRegion(unsigned int, G1BlockOffsetTable*, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n2: 505856 0x5612151: G1CollectedHeap::new_heap_region(unsigned int, MemRegion) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n2: 503808 0x56EE71C: HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 499712 0x56EEC60: HeapRegionManager::expand_by(unsigned int, WorkGang*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 499712 0x5616CAE: G1CollectedHeap::expand(unsigned long, WorkGang*, double*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+         n1: 499712 0x561738C: G1CollectedHeap::initialize() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+          n1: 499712 0x5D2C1D5: Universe::initialize_heap() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+           n1: 499712 0x5D2C489: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+            n1: 499712 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+             n1: 499712 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+              n1: 499712 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+               n1: 499712 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                n1: 499712 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+                 n1: 499712 0x492DAC2: start_thread (pthread_create.c:442)
+                  n0: 499712 0x49BEA03: clone (clone.S:100)
+       n0: 4096 in 1 place, below massif's threshold (1.00%)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+  n0: 404745 in 28 places, all below massif's threshold (1.00%)
+ n0: 641475 in 77 places, all below massif's threshold (1.00%)
+ n1: 368656 0x52D7F50: Arena::Arena(MemoryType, unsigned long) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+  n1: 368656 0x5CBDE49: SymbolTable::initialize_symbols(int) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+   n1: 368656 0x5A3E052: MetaspaceShared::initialize_shared_spaces() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+    n1: 368656 0x5D2C5F2: universe_init() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+     n1: 368656 0x570DC1B: init_globals() (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+      n1: 368656 0x5D03A31: Threads::create_vm(JavaVMInitArgs*, bool*) (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+       n1: 368656 0x57B7DB4: JNI_CreateJavaVM (in /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so)
+        n1: 368656 0x488AD10: JavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+         n1: 368656 0x488F98C: ThreadJavaMain (in /usr/lib/jvm/java-11-openjdk-amd64/lib/jli/libjli.so)
+          n1: 368656 0x492DAC2: start_thread (pthread_create.c:442)
+           n0: 368656 0x49BEA03: clone (clone.S:100)
+#-----------
+snapshot=95
+#-----------
+time=873449677
+mem_heap_B=32213029
+mem_heap_extra_B=96923
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=96
+#-----------
+time=875320219
+mem_heap_B=32219189
+mem_heap_extra_B=96923
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=97
+#-----------
+time=882627226
+mem_heap_B=32175645
+mem_heap_extra_B=96931
+mem_stacks_B=0
+heap_tree=empty

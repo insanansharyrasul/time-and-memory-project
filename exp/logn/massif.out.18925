@@ -1,0 +1,1510 @@
+desc: (none)
+cmd: python3 logn.py
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=6396188
+mem_heap_B=667528
+mem_heap_extra_B=2304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=15404680
+mem_heap_B=856965
+mem_heap_extra_B=4531
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=22661363
+mem_heap_B=1017177
+mem_heap_extra_B=5487
+mem_stacks_B=0
+heap_tree=detailed
+n11: 1017177 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 301080 0x223892: PyObject_Malloc (in /usr/bin/python3.10)
+  n2: 301080 0x227F35: ??? (in /usr/bin/python3.10)
+   n3: 194696 0x2267E1: PyDict_SetDefault (in /usr/bin/python3.10)
+    n2: 147488 0x225FA1: PyUnicode_InternInPlace (in /usr/bin/python3.10)
+     n1: 147488 0x240B88: ??? (in /usr/bin/python3.10)
+      n1: 147488 0x2414E0: ??? (in /usr/bin/python3.10)
+       n1: 147488 0x240FE1: ??? (in /usr/bin/python3.10)
+        n1: 147488 0x24151E: ??? (in /usr/bin/python3.10)
+         n1: 147488 0x240FCB: ??? (in /usr/bin/python3.10)
+          n2: 147488 0x33C87F: ??? (in /usr/bin/python3.10)
+           n1: 147488 0x34C894: ??? (in /usr/bin/python3.10)
+            n1: 147488 0x261B33: ??? (in /usr/bin/python3.10)
+             n1: 147488 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+              n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+               n1: 147488 0x24C53B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                 n1: 147488 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 147488 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                    n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                     n1: 147488 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                      n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                       n1: 147488 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                        n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                         n1: 147488 0x261DC8: ??? (in /usr/bin/python3.10)
+                          n1: 147488 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                           n1: 147488 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                            n1: 147488 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                             n1: 147488 0x2479C5: ??? (in /usr/bin/python3.10)
+                              n0: 147488 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n1: 23928 0x22ABF3: PyType_Ready (in /usr/bin/python3.10)
+     n0: 23928 in 16 places, all below massif's threshold (1.00%)
+    n0: 23280 in 7 places, all below massif's threshold (1.00%)
+   n5: 106384 0x230273: ??? (in /usr/bin/python3.10)
+    n0: 28640 in 12 places, all below massif's threshold (1.00%)
+    n1: 26368 0x2341F2: PyDict_SetItemString (in /usr/bin/python3.10)
+     n0: 26368 in 9 places, all below massif's threshold (1.00%)
+    n2: 22048 0x24C6F4: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+     n1: 22048 0x2479C5: ??? (in /usr/bin/python3.10)
+      n2: 22048 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+       n1: 19840 0x342E2C: ??? (in /usr/bin/python3.10)
+        n2: 19840 0x262C58: ??? (in /usr/bin/python3.10)
+         n1: 15424 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+          n1: 15424 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+           n1: 15424 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+            n1: 15424 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+             n1: 15424 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+              n1: 15424 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+               n1: 15424 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                n1: 15424 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                 n1: 15424 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 15424 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 15424 0x261DC8: ??? (in /usr/bin/python3.10)
+                    n1: 15424 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                     n2: 15424 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                      n1: 13160 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                       n1: 13160 0x2479C5: ??? (in /usr/bin/python3.10)
+                        n1: 13160 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+                         n1: 13160 0x342E2C: ??? (in /usr/bin/python3.10)
+                          n1: 13160 0x262C58: ??? (in /usr/bin/python3.10)
+                           n1: 13160 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                            n1: 13160 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                             n1: 13160 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                              n0: 13160 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                      n0: 2264 in 1 place, below massif's threshold (1.00%)
+         n0: 4416 in 1 place, below massif's threshold (1.00%)
+       n0: 2208 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n1: 15872 0x27E220: PyModule_AddIntConstant (in /usr/bin/python3.10)
+     n0: 15872 in 5 places, all below massif's threshold (1.00%)
+    n1: 13456 0x229066: PyType_Ready (in /usr/bin/python3.10)
+     n0: 13456 in 29 places, all below massif's threshold (1.00%)
+ n1: 262144 0x337BAF: ??? (in /usr/bin/python3.10)
+  n1: 262144 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 262144 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 262144 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 262144 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 262144 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 262144 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 262144 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 262144 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 131072 0x337C29: ??? (in /usr/bin/python3.10)
+  n1: 131072 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 131072 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 131072 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 131072 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 131072 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 131072 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 131072 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 131072 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 113528 0x337315: PyInterpreterState_New (in /usr/bin/python3.10)
+  n1: 113528 0x3329F3: ??? (in /usr/bin/python3.10)
+   n1: 113528 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+    n1: 113528 0x33010F: ??? (in /usr/bin/python3.10)
+     n1: 113528 0x330054: ??? (in /usr/bin/python3.10)
+      n1: 113528 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+       n0: 113528 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n4: 72840 0x22FB30: PyType_GenericAlloc (in /usr/bin/python3.10)
+  n1: 26432 0x25928A: ??? (in /usr/bin/python3.10)
+   n2: 26432 0x2589C6: _PyObject_MakeTpCall (in /usr/bin/python3.10)
+    n1: 24544 0x257DA2: _PyObject_FastCallDictTstate (in /usr/bin/python3.10)
+     n1: 24544 0x255E12: ??? (in /usr/bin/python3.10)
+      n1: 24544 0x25599A: ??? (in /usr/bin/python3.10)
+       n1: 24544 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+        n1: 24544 0x2479C5: ??? (in /usr/bin/python3.10)
+         n2: 24544 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+          n1: 16992 0x342E2C: ??? (in /usr/bin/python3.10)
+           n1: 16992 0x262C58: ??? (in /usr/bin/python3.10)
+            n0: 16992 in 2 places, all below massif's threshold (1.00%)
+          n0: 7552 in 1 place, below massif's threshold (1.00%)
+    n0: 1888 in 2 places, all below massif's threshold (1.00%)
+  n2: 16992 0x259F4D: ??? (in /usr/bin/python3.10)
+   n1: 13216 0x2589C6: _PyObject_MakeTpCall (in /usr/bin/python3.10)
+    n1: 13216 0x257DA2: _PyObject_FastCallDictTstate (in /usr/bin/python3.10)
+     n1: 13216 0x255E12: ??? (in /usr/bin/python3.10)
+      n1: 13216 0x25599A: ??? (in /usr/bin/python3.10)
+       n1: 13216 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+        n1: 13216 0x2479C5: ??? (in /usr/bin/python3.10)
+         n1: 13216 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+          n1: 13216 0x342E2C: ??? (in /usr/bin/python3.10)
+           n1: 13216 0x262C58: ??? (in /usr/bin/python3.10)
+            n0: 13216 in 2 places, all below massif's threshold (1.00%)
+   n0: 3776 in 1 place, below massif's threshold (1.00%)
+  n1: 15256 0x27180B: PyType_FromModuleAndSpec (in /usr/bin/python3.10)
+   n0: 15256 in 8 places, all below massif's threshold (1.00%)
+  n2: 14160 0x25A50A: ??? (in /usr/bin/python3.10)
+   n1: 13216 0x2A57F8: ??? (in /usr/bin/python3.10)
+    n1: 13216 0x26210D: ??? (in /usr/bin/python3.10)
+     n1: 13216 0x27142A: PyObject_Call (in /usr/bin/python3.10)
+      n1: 13216 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+       n1: 13216 0x257C13: _PyObject_FastCallDictTstate (in /usr/bin/python3.10)
+        n1: 13216 0x2A50DC: ??? (in /usr/bin/python3.10)
+         n1: 13216 0x2589C6: _PyObject_MakeTpCall (in /usr/bin/python3.10)
+          n1: 13216 0x255E12: ??? (in /usr/bin/python3.10)
+           n1: 13216 0x25599A: ??? (in /usr/bin/python3.10)
+            n0: 13216 in 2 places, all below massif's threshold (1.00%)
+   n0: 944 in 1 place, below massif's threshold (1.00%)
+ n1: 31436 0x242A17: ??? (in /usr/bin/python3.10)
+  n2: 31436 0x240B64: ??? (in /usr/bin/python3.10)
+   n1: 26877 0x2413E8: ??? (in /usr/bin/python3.10)
+    n2: 26877 0x240FCB: ??? (in /usr/bin/python3.10)
+     n0: 13458 in 6 places, all below massif's threshold (1.00%)
+     n1: 13419 0x24151E: ??? (in /usr/bin/python3.10)
+      n2: 13419 0x240FCB: ??? (in /usr/bin/python3.10)
+       n1: 10936 0x33C87F: ??? (in /usr/bin/python3.10)
+        n0: 10936 in 2 places, all below massif's threshold (1.00%)
+       n0: 2483 in 1 place, below massif's threshold (1.00%)
+   n0: 4559 in 1 place, below massif's threshold (1.00%)
+ n0: 30684 in 51 places, all below massif's threshold (1.00%)
+ n1: 24576 0x23D22C: ??? (in /usr/bin/python3.10)
+  n2: 24576 0x23C0F8: ??? (in /usr/bin/python3.10)
+   n1: 16384 0x2907F3: ??? (in /usr/bin/python3.10)
+    n1: 16384 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+     n1: 16384 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+      n1: 16384 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+       n1: 16384 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+        n1: 16384 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+         n1: 16384 0x2707F0: ??? (in /usr/bin/python3.10)
+          n1: 16384 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+           n1: 16384 0x2707F0: ??? (in /usr/bin/python3.10)
+            n1: 16384 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+             n1: 16384 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+              n1: 16384 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+               n1: 16384 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                n1: 16384 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                 n1: 16384 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                  n1: 16384 0x261DC8: ??? (in /usr/bin/python3.10)
+                   n1: 16384 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                    n1: 16384 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                     n1: 16384 0x286B67: ??? (in /usr/bin/python3.10)
+                      n1: 16384 0x26210D: ??? (in /usr/bin/python3.10)
+                       n0: 16384 in 2 places, all below massif's threshold (1.00%)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 20266 0x225158: ??? (in /usr/bin/python3.10)
+  n0: 20266 in 4 places, all below massif's threshold (1.00%)
+ n1: 16536 0x23FEC6: PyDict_Copy (in /usr/bin/python3.10)
+  n0: 16536 in 5 places, all below massif's threshold (1.00%)
+ n2: 13015 0x22D2FA: PyMem_Malloc (in /usr/bin/python3.10)
+  n1: 12288 0x34A38C: ??? (in /usr/bin/python3.10)
+   n0: 12288 in 2 places, all below massif's threshold (1.00%)
+  n0: 727 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=33705556
+mem_heap_B=1146365
+mem_heap_extra_B=6475
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=45065016
+mem_heap_B=1291799
+mem_heap_extra_B=7065
+mem_stacks_B=0
+heap_tree=detailed
+n11: 1291799 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 361832 0x223892: PyObject_Malloc (in /usr/bin/python3.10)
+  n2: 361832 0x227F35: ??? (in /usr/bin/python3.10)
+   n3: 199784 0x2267E1: PyDict_SetDefault (in /usr/bin/python3.10)
+    n2: 147488 0x225FA1: PyUnicode_InternInPlace (in /usr/bin/python3.10)
+     n1: 147488 0x240B88: ??? (in /usr/bin/python3.10)
+      n1: 147488 0x2414E0: ??? (in /usr/bin/python3.10)
+       n1: 147488 0x240FE1: ??? (in /usr/bin/python3.10)
+        n1: 147488 0x24151E: ??? (in /usr/bin/python3.10)
+         n1: 147488 0x240FCB: ??? (in /usr/bin/python3.10)
+          n2: 147488 0x33C87F: ??? (in /usr/bin/python3.10)
+           n1: 147488 0x34C894: ??? (in /usr/bin/python3.10)
+            n1: 147488 0x261B33: ??? (in /usr/bin/python3.10)
+             n1: 147488 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+              n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+               n1: 147488 0x24C53B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                 n1: 147488 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 147488 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                    n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                     n1: 147488 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                      n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                       n1: 147488 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                        n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                         n1: 147488 0x261DC8: ??? (in /usr/bin/python3.10)
+                          n1: 147488 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                           n1: 147488 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                            n1: 147488 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                             n1: 147488 0x2479C5: ??? (in /usr/bin/python3.10)
+                              n0: 147488 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 28368 in 9 places, all below massif's threshold (1.00%)
+    n1: 23928 0x22ABF3: PyType_Ready (in /usr/bin/python3.10)
+     n0: 23928 in 16 places, all below massif's threshold (1.00%)
+   n5: 162048 0x230273: ??? (in /usr/bin/python3.10)
+    n2: 62960 0x24C6F4: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+     n1: 62960 0x2479C5: ??? (in /usr/bin/python3.10)
+      n2: 62960 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+       n1: 60752 0x342E2C: ??? (in /usr/bin/python3.10)
+        n2: 60752 0x262C58: ??? (in /usr/bin/python3.10)
+         n1: 56336 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+          n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+           n1: 56336 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+            n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+             n1: 56336 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+              n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+               n1: 56336 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                 n1: 56336 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 56336 0x261DC8: ??? (in /usr/bin/python3.10)
+                    n1: 56336 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                     n2: 56336 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                      n1: 49624 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                       n1: 49624 0x2479C5: ??? (in /usr/bin/python3.10)
+                        n2: 49624 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+                         n1: 47416 0x342E2C: ??? (in /usr/bin/python3.10)
+                          n1: 47416 0x262C58: ??? (in /usr/bin/python3.10)
+                           n1: 47416 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                            n1: 47416 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                             n1: 47416 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                              n0: 47416 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                         n0: 2208 in 1 place, below massif's threshold (1.00%)
+                      n0: 6712 in 1 place, below massif's threshold (1.00%)
+         n0: 4416 in 1 place, below massif's threshold (1.00%)
+       n0: 2208 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 41704 in 17 places, all below massif's threshold (1.00%)
+    n1: 28056 0x2341F2: PyDict_SetItemString (in /usr/bin/python3.10)
+     n0: 28056 in 9 places, all below massif's threshold (1.00%)
+    n1: 15872 0x27E220: PyModule_AddIntConstant (in /usr/bin/python3.10)
+     n0: 15872 in 5 places, all below massif's threshold (1.00%)
+    n1: 13456 0x229066: PyType_Ready (in /usr/bin/python3.10)
+     n0: 13456 in 30 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 262144 0x337BAF: ??? (in /usr/bin/python3.10)
+  n1: 262144 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 262144 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 262144 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 262144 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 262144 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 262144 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 262144 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 262144 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n4: 134760 0x22FB30: PyType_GenericAlloc (in /usr/bin/python3.10)
+  n2: 54752 0x25928A: ??? (in /usr/bin/python3.10)
+   n2: 43424 0x2589C6: _PyObject_MakeTpCall (in /usr/bin/python3.10)
+    n1: 41536 0x257DA2: _PyObject_FastCallDictTstate (in /usr/bin/python3.10)
+     n1: 41536 0x255E12: ??? (in /usr/bin/python3.10)
+      n1: 41536 0x25599A: ??? (in /usr/bin/python3.10)
+       n1: 41536 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+        n1: 41536 0x2479C5: ??? (in /usr/bin/python3.10)
+         n2: 41536 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+          n1: 33984 0x342E2C: ??? (in /usr/bin/python3.10)
+           n2: 33984 0x262C58: ??? (in /usr/bin/python3.10)
+            n1: 26432 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+             n1: 26432 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+              n1: 26432 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+               n1: 26432 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                n1: 26432 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                 n1: 26432 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                  n1: 26432 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                   n1: 26432 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                    n1: 26432 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                     n1: 26432 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                      n1: 26432 0x261DC8: ??? (in /usr/bin/python3.10)
+                       n1: 26432 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                        n2: 26432 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                         n1: 25488 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                          n1: 25488 0x2479C5: ??? (in /usr/bin/python3.10)
+                           n2: 25488 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+                            n1: 23600 0x342E2C: ??? (in /usr/bin/python3.10)
+                             n1: 23600 0x262C58: ??? (in /usr/bin/python3.10)
+                              n0: 23600 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                            n0: 1888 in 1 place, below massif's threshold (1.00%)
+                         n0: 944 in 1 place, below massif's threshold (1.00%)
+            n0: 7552 in 1 place, below massif's threshold (1.00%)
+          n0: 7552 in 1 place, below massif's threshold (1.00%)
+    n0: 1888 in 2 places, all below massif's threshold (1.00%)
+   n0: 11328 in 1 place, below massif's threshold (1.00%)
+  n2: 29264 0x259F4D: ??? (in /usr/bin/python3.10)
+   n1: 15104 0x2A57F8: ??? (in /usr/bin/python3.10)
+    n1: 15104 0x26210D: ??? (in /usr/bin/python3.10)
+     n1: 15104 0x27142A: PyObject_Call (in /usr/bin/python3.10)
+      n1: 15104 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+       n1: 15104 0x257C13: _PyObject_FastCallDictTstate (in /usr/bin/python3.10)
+        n1: 15104 0x2A50DC: ??? (in /usr/bin/python3.10)
+         n1: 15104 0x2589C6: _PyObject_MakeTpCall (in /usr/bin/python3.10)
+          n1: 15104 0x255E12: ??? (in /usr/bin/python3.10)
+           n2: 15104 0x25599A: ??? (in /usr/bin/python3.10)
+            n1: 14160 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+             n1: 14160 0x2479C5: ??? (in /usr/bin/python3.10)
+              n1: 14160 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+               n1: 14160 0x342E2C: ??? (in /usr/bin/python3.10)
+                n1: 14160 0x262C58: ??? (in /usr/bin/python3.10)
+                 n1: 14160 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 14160 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 14160 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                    n1: 14160 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                     n1: 14160 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                      n1: 14160 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                       n1: 14160 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                        n1: 14160 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                         n1: 14160 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                          n1: 14160 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                           n1: 14160 0x261DC8: ??? (in /usr/bin/python3.10)
+                            n1: 14160 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                             n1: 14160 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                              n0: 14160 in 2 places, all below massif's threshold (1.00%)
+            n0: 944 in 1 place, below massif's threshold (1.00%)
+   n1: 14160 0x2589C6: _PyObject_MakeTpCall (in /usr/bin/python3.10)
+    n1: 14160 0x257DA2: _PyObject_FastCallDictTstate (in /usr/bin/python3.10)
+     n1: 14160 0x255E12: ??? (in /usr/bin/python3.10)
+      n1: 14160 0x25599A: ??? (in /usr/bin/python3.10)
+       n1: 14160 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+        n1: 14160 0x2479C5: ??? (in /usr/bin/python3.10)
+         n1: 14160 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+          n1: 14160 0x342E2C: ??? (in /usr/bin/python3.10)
+           n1: 14160 0x262C58: ??? (in /usr/bin/python3.10)
+            n0: 14160 in 2 places, all below massif's threshold (1.00%)
+  n2: 28520 0x25A50A: ??? (in /usr/bin/python3.10)
+   n1: 24584 0x2A57F8: ??? (in /usr/bin/python3.10)
+    n1: 24584 0x26210D: ??? (in /usr/bin/python3.10)
+     n1: 24584 0x27142A: PyObject_Call (in /usr/bin/python3.10)
+      n1: 24584 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+       n1: 24584 0x257C13: _PyObject_FastCallDictTstate (in /usr/bin/python3.10)
+        n1: 24584 0x2A50DC: ??? (in /usr/bin/python3.10)
+         n1: 24584 0x2589C6: _PyObject_MakeTpCall (in /usr/bin/python3.10)
+          n1: 24584 0x255E12: ??? (in /usr/bin/python3.10)
+           n2: 24584 0x25599A: ??? (in /usr/bin/python3.10)
+            n1: 17032 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+             n1: 17032 0x2479C5: ??? (in /usr/bin/python3.10)
+              n1: 17032 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+               n1: 17032 0x342E2C: ??? (in /usr/bin/python3.10)
+                n1: 17032 0x262C58: ??? (in /usr/bin/python3.10)
+                 n1: 17032 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 17032 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 17032 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                    n1: 17032 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                     n1: 17032 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                      n1: 17032 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                       n1: 17032 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                        n1: 17032 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                         n1: 17032 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                          n1: 17032 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                           n1: 17032 0x261DC8: ??? (in /usr/bin/python3.10)
+                            n1: 17032 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                             n1: 17032 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                              n0: 17032 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+            n0: 7552 in 1 place, below massif's threshold (1.00%)
+   n0: 3936 in 1 place, below massif's threshold (1.00%)
+  n1: 22224 0x27180B: PyType_FromModuleAndSpec (in /usr/bin/python3.10)
+   n0: 22224 in 15 places, all below massif's threshold (1.00%)
+ n1: 131072 0x337C29: ??? (in /usr/bin/python3.10)
+  n1: 131072 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 131072 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 131072 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 131072 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 131072 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 131072 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 131072 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 131072 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 113528 0x337315: PyInterpreterState_New (in /usr/bin/python3.10)
+  n1: 113528 0x3329F3: ??? (in /usr/bin/python3.10)
+   n1: 113528 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+    n1: 113528 0x33010F: ??? (in /usr/bin/python3.10)
+     n1: 113528 0x330054: ??? (in /usr/bin/python3.10)
+      n1: 113528 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+       n0: 113528 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n2: 81617 0x22D2FA: PyMem_Malloc (in /usr/bin/python3.10)
+  n0: 65169 in 18 places, all below massif's threshold (1.00%)
+  n1: 16448 0x2A2830: ??? (in /usr/bin/python3.10)
+   n1: 16448 0x2A6A28: ??? (in /usr/bin/python3.10)
+    n1: 16448 0x2B5863: ??? (in /usr/bin/python3.10)
+     n1: 16448 0x2B4791: ??? (in /usr/bin/python3.10)
+      n1: 16448 0x2B39BE: ??? (in /usr/bin/python3.10)
+       n1: 16448 0x2B30FB: ??? (in /usr/bin/python3.10)
+        n1: 16448 0x2B28EF: ??? (in /usr/bin/python3.10)
+         n1: 16448 0x2B24D3: ??? (in /usr/bin/python3.10)
+          n1: 16448 0x2B20D3: ??? (in /usr/bin/python3.10)
+           n1: 16448 0x2B0938: ??? (in /usr/bin/python3.10)
+            n1: 16448 0x2B014C: ??? (in /usr/bin/python3.10)
+             n1: 16448 0x2AE53C: ??? (in /usr/bin/python3.10)
+              n1: 16448 0x2ADD22: ??? (in /usr/bin/python3.10)
+               n1: 16448 0x2AD742: ??? (in /usr/bin/python3.10)
+                n1: 16448 0x2ACC9F: ??? (in /usr/bin/python3.10)
+                 n1: 16448 0x2B5FB3: ??? (in /usr/bin/python3.10)
+                  n1: 16448 0x2A64AF: ??? (in /usr/bin/python3.10)
+                   n0: 16448 in 2 places, all below massif's threshold (1.00%)
+ n1: 63488 0x23D22C: ??? (in /usr/bin/python3.10)
+  n2: 63488 0x23C0F8: ??? (in /usr/bin/python3.10)
+   n1: 53248 0x2907F3: ??? (in /usr/bin/python3.10)
+    n1: 53248 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+     n1: 53248 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+      n1: 53248 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+       n1: 53248 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+        n1: 53248 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+         n1: 53248 0x2707F0: ??? (in /usr/bin/python3.10)
+          n1: 53248 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+           n2: 53248 0x2707F0: ??? (in /usr/bin/python3.10)
+            n1: 32768 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+             n1: 32768 0x2479C5: ??? (in /usr/bin/python3.10)
+              n1: 32768 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+               n1: 32768 0x368107: ??? (in /usr/bin/python3.10)
+                n1: 32768 0x3619CA: ??? (in /usr/bin/python3.10)
+                 n1: 32768 0x35AAB0: PyRun_StringFlags (in /usr/bin/python3.10)
+                  n1: 32768 0x342EBB: ??? (in /usr/bin/python3.10)
+                   n1: 32768 0x262C58: ??? (in /usr/bin/python3.10)
+                    n1: 32768 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                     n1: 32768 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                      n1: 32768 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                       n1: 32768 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                        n1: 32768 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                         n1: 32768 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                          n1: 32768 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                           n1: 32768 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                            n1: 32768 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                             n1: 32768 0x2479C5: ??? (in /usr/bin/python3.10)
+                              n0: 32768 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+            n1: 20480 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+             n1: 20480 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+              n1: 20480 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+               n1: 20480 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                n1: 20480 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                 n1: 20480 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                  n1: 20480 0x261DC8: ??? (in /usr/bin/python3.10)
+                   n1: 20480 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                    n2: 20480 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                     n1: 16384 0x286B67: ??? (in /usr/bin/python3.10)
+                      n1: 16384 0x26210D: ??? (in /usr/bin/python3.10)
+                       n0: 16384 in 2 places, all below massif's threshold (1.00%)
+                     n0: 4096 in 1 place, below massif's threshold (1.00%)
+   n0: 10240 in 1 place, below massif's threshold (1.00%)
+ n0: 45824 in 59 places, all below massif's threshold (1.00%)
+ n1: 45610 0x242A17: ??? (in /usr/bin/python3.10)
+  n2: 45610 0x240B64: ??? (in /usr/bin/python3.10)
+   n1: 37307 0x2413E8: ??? (in /usr/bin/python3.10)
+    n2: 37307 0x240FCB: ??? (in /usr/bin/python3.10)
+     n1: 21877 0x24151E: ??? (in /usr/bin/python3.10)
+      n2: 21877 0x240FCB: ??? (in /usr/bin/python3.10)
+       n2: 17960 0x33C87F: ??? (in /usr/bin/python3.10)
+        n1: 14864 0x34C894: ??? (in /usr/bin/python3.10)
+         n1: 14864 0x261B33: ??? (in /usr/bin/python3.10)
+          n1: 14864 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+           n1: 14864 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+            n1: 14864 0x24C53B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+             n1: 14864 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+              n1: 14864 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+               n1: 14864 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                n1: 14864 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                 n1: 14864 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                  n1: 14864 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                   n1: 14864 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                    n1: 14864 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                     n1: 14864 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                      n1: 14864 0x261DC8: ??? (in /usr/bin/python3.10)
+                       n1: 14864 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                        n1: 14864 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                         n0: 14864 in 2 places, all below massif's threshold (1.00%)
+        n0: 3096 in 1 place, below massif's threshold (1.00%)
+       n0: 3917 in 1 place, below massif's threshold (1.00%)
+     n0: 15430 in 6 places, all below massif's threshold (1.00%)
+   n0: 8303 in 1 place, below massif's threshold (1.00%)
+ n2: 28992 0x23FEC6: PyDict_Copy (in /usr/bin/python3.10)
+  n0: 15960 in 4 places, all below massif's threshold (1.00%)
+  n1: 13032 0x259201: ??? (in /usr/bin/python3.10)
+   n0: 13032 in 2 places, all below massif's threshold (1.00%)
+ n1: 22932 0x225158: ??? (in /usr/bin/python3.10)
+  n0: 22932 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=53652352
+mem_heap_B=1327783
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=58728287
+mem_heap_B=1359879
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=66874562
+mem_heap_B=1411335
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=79914044
+mem_heap_B=1493767
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=89136733
+mem_heap_B=1552039
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=100803278
+mem_heap_B=1625767
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=107753002
+mem_heap_B=1669671
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=115568518
+mem_heap_B=1719079
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=124363893
+mem_heap_B=1774663
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=134258596
+mem_heap_B=1837191
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=145389554
+mem_heap_B=1907527
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=157910358
+mem_heap_B=1986663
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=171997611
+mem_heap_B=2075687
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=187845200
+mem_heap_B=2175847
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=205674970
+mem_heap_B=2288519
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=detailed
+n11: 2288519 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1013760 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 1013760 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 1013760 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 1013760 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 1013760 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 1013760 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 1013760 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 1013760 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 1013760 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 1013760 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 1013760 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 1013760 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 1013760 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n2: 362408 0x223892: PyObject_Malloc (in /usr/bin/python3.10)
+  n2: 362408 0x227F35: ??? (in /usr/bin/python3.10)
+   n3: 199784 0x2267E1: PyDict_SetDefault (in /usr/bin/python3.10)
+    n2: 147488 0x225FA1: PyUnicode_InternInPlace (in /usr/bin/python3.10)
+     n1: 147488 0x240B88: ??? (in /usr/bin/python3.10)
+      n1: 147488 0x2414E0: ??? (in /usr/bin/python3.10)
+       n1: 147488 0x240FE1: ??? (in /usr/bin/python3.10)
+        n1: 147488 0x24151E: ??? (in /usr/bin/python3.10)
+         n1: 147488 0x240FCB: ??? (in /usr/bin/python3.10)
+          n2: 147488 0x33C87F: ??? (in /usr/bin/python3.10)
+           n1: 147488 0x34C894: ??? (in /usr/bin/python3.10)
+            n1: 147488 0x261B33: ??? (in /usr/bin/python3.10)
+             n1: 147488 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+              n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+               n1: 147488 0x24C53B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                 n1: 147488 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 147488 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                    n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                     n1: 147488 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                      n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                       n1: 147488 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                        n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                         n1: 147488 0x261DC8: ??? (in /usr/bin/python3.10)
+                          n1: 147488 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                           n1: 147488 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                            n1: 147488 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                             n1: 147488 0x2479C5: ??? (in /usr/bin/python3.10)
+                              n0: 147488 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 28368 in 9 places, all below massif's threshold (1.00%)
+    n1: 23928 0x22ABF3: PyType_Ready (in /usr/bin/python3.10)
+     n0: 23928 in 16 places, all below massif's threshold (1.00%)
+   n3: 162624 0x230273: ??? (in /usr/bin/python3.10)
+    n0: 71032 in 21 places, all below massif's threshold (1.00%)
+    n2: 63536 0x24C6F4: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+     n1: 63536 0x2479C5: ??? (in /usr/bin/python3.10)
+      n2: 63536 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+       n1: 60752 0x342E2C: ??? (in /usr/bin/python3.10)
+        n2: 60752 0x262C58: ??? (in /usr/bin/python3.10)
+         n1: 56336 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+          n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+           n1: 56336 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+            n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+             n1: 56336 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+              n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+               n1: 56336 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                 n1: 56336 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 56336 0x261DC8: ??? (in /usr/bin/python3.10)
+                    n1: 56336 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                     n2: 56336 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                      n1: 49624 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                       n1: 49624 0x2479C5: ??? (in /usr/bin/python3.10)
+                        n2: 49624 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+                         n1: 47416 0x342E2C: ??? (in /usr/bin/python3.10)
+                          n1: 47416 0x262C58: ??? (in /usr/bin/python3.10)
+                           n1: 47416 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                            n1: 47416 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                             n1: 47416 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                              n0: 47416 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                         n0: 2208 in 1 place, below massif's threshold (1.00%)
+                      n0: 6712 in 1 place, below massif's threshold (1.00%)
+         n0: 4416 in 1 place, below massif's threshold (1.00%)
+       n0: 2784 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n1: 28056 0x2341F2: PyDict_SetItemString (in /usr/bin/python3.10)
+     n0: 28056 in 9 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 262144 0x337BAF: ??? (in /usr/bin/python3.10)
+  n1: 262144 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 262144 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 262144 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 262144 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 262144 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 262144 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 262144 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 262144 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n4: 134760 0x22FB30: PyType_GenericAlloc (in /usr/bin/python3.10)
+  n2: 54752 0x25928A: ??? (in /usr/bin/python3.10)
+   n2: 43424 0x2589C6: _PyObject_MakeTpCall (in /usr/bin/python3.10)
+    n1: 41536 0x257DA2: _PyObject_FastCallDictTstate (in /usr/bin/python3.10)
+     n1: 41536 0x255E12: ??? (in /usr/bin/python3.10)
+      n1: 41536 0x25599A: ??? (in /usr/bin/python3.10)
+       n1: 41536 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+        n1: 41536 0x2479C5: ??? (in /usr/bin/python3.10)
+         n2: 41536 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+          n1: 33984 0x342E2C: ??? (in /usr/bin/python3.10)
+           n2: 33984 0x262C58: ??? (in /usr/bin/python3.10)
+            n1: 26432 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+             n1: 26432 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+              n1: 26432 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+               n1: 26432 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                n1: 26432 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                 n1: 26432 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                  n1: 26432 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                   n1: 26432 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                    n1: 26432 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                     n1: 26432 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                      n1: 26432 0x261DC8: ??? (in /usr/bin/python3.10)
+                       n1: 26432 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                        n2: 26432 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                         n1: 25488 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                          n1: 25488 0x2479C5: ??? (in /usr/bin/python3.10)
+                           n2: 25488 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+                            n1: 23600 0x342E2C: ??? (in /usr/bin/python3.10)
+                             n1: 23600 0x262C58: ??? (in /usr/bin/python3.10)
+                              n0: 23600 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                            n0: 1888 in 1 place, below massif's threshold (1.00%)
+                         n0: 944 in 1 place, below massif's threshold (1.00%)
+            n0: 7552 in 1 place, below massif's threshold (1.00%)
+          n0: 7552 in 1 place, below massif's threshold (1.00%)
+    n0: 1888 in 2 places, all below massif's threshold (1.00%)
+   n0: 11328 in 1 place, below massif's threshold (1.00%)
+  n1: 29264 0x259F4D: ??? (in /usr/bin/python3.10)
+   n0: 29264 in 2 places, all below massif's threshold (1.00%)
+  n2: 28520 0x25A50A: ??? (in /usr/bin/python3.10)
+   n1: 24584 0x2A57F8: ??? (in /usr/bin/python3.10)
+    n1: 24584 0x26210D: ??? (in /usr/bin/python3.10)
+     n1: 24584 0x27142A: PyObject_Call (in /usr/bin/python3.10)
+      n1: 24584 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+       n1: 24584 0x257C13: _PyObject_FastCallDictTstate (in /usr/bin/python3.10)
+        n1: 24584 0x2A50DC: ??? (in /usr/bin/python3.10)
+         n1: 24584 0x2589C6: _PyObject_MakeTpCall (in /usr/bin/python3.10)
+          n1: 24584 0x255E12: ??? (in /usr/bin/python3.10)
+           n1: 24584 0x25599A: ??? (in /usr/bin/python3.10)
+            n0: 24584 in 2 places, all below massif's threshold (1.00%)
+   n0: 3936 in 1 place, below massif's threshold (1.00%)
+  n0: 22224 in 1 place, below massif's threshold (1.00%)
+ n1: 131072 0x337C29: ??? (in /usr/bin/python3.10)
+  n1: 131072 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 131072 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 131072 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 131072 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 131072 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 131072 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 131072 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 131072 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 113528 0x337315: PyInterpreterState_New (in /usr/bin/python3.10)
+  n1: 113528 0x3329F3: ??? (in /usr/bin/python3.10)
+   n1: 113528 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+    n1: 113528 0x33010F: ??? (in /usr/bin/python3.10)
+     n1: 113528 0x330054: ??? (in /usr/bin/python3.10)
+      n1: 113528 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+       n0: 113528 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 70585 0x22D2FA: PyMem_Malloc (in /usr/bin/python3.10)
+  n0: 70585 in 19 places, all below massif's threshold (1.00%)
+ n1: 63488 0x23D22C: ??? (in /usr/bin/python3.10)
+  n2: 63488 0x23C0F8: ??? (in /usr/bin/python3.10)
+   n1: 53248 0x2907F3: ??? (in /usr/bin/python3.10)
+    n1: 53248 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+     n1: 53248 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+      n1: 53248 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+       n1: 53248 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+        n1: 53248 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+         n1: 53248 0x2707F0: ??? (in /usr/bin/python3.10)
+          n1: 53248 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+           n2: 53248 0x2707F0: ??? (in /usr/bin/python3.10)
+            n1: 32768 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+             n1: 32768 0x2479C5: ??? (in /usr/bin/python3.10)
+              n1: 32768 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+               n1: 32768 0x368107: ??? (in /usr/bin/python3.10)
+                n1: 32768 0x3619CA: ??? (in /usr/bin/python3.10)
+                 n1: 32768 0x35AAB0: PyRun_StringFlags (in /usr/bin/python3.10)
+                  n1: 32768 0x342EBB: ??? (in /usr/bin/python3.10)
+                   n1: 32768 0x262C58: ??? (in /usr/bin/python3.10)
+                    n1: 32768 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                     n1: 32768 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                      n1: 32768 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                       n1: 32768 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                        n1: 32768 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                         n1: 32768 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                          n1: 32768 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                           n1: 32768 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                            n1: 32768 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                             n1: 32768 0x2479C5: ??? (in /usr/bin/python3.10)
+                              n0: 32768 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+            n0: 20480 in 1 place, below massif's threshold (1.00%)
+   n0: 10240 in 1 place, below massif's threshold (1.00%)
+ n0: 62172 in 61 places, all below massif's threshold (1.00%)
+ n1: 45610 0x242A17: ??? (in /usr/bin/python3.10)
+  n2: 45610 0x240B64: ??? (in /usr/bin/python3.10)
+   n1: 37307 0x2413E8: ??? (in /usr/bin/python3.10)
+    n1: 37307 0x240FCB: ??? (in /usr/bin/python3.10)
+     n0: 37307 in 7 places, all below massif's threshold (1.00%)
+   n0: 8303 in 1 place, below massif's threshold (1.00%)
+ n1: 28992 0x23FEC6: PyDict_Copy (in /usr/bin/python3.10)
+  n0: 28992 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=225732072
+mem_heap_B=2415271
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=248295686
+mem_heap_B=2557863
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=273678891
+mem_heap_B=2718279
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=302235089
+mem_heap_B=2898759
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=334362973
+mem_heap_B=3101799
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=370506733
+mem_heap_B=3330215
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=411167639
+mem_heap_B=3587175
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=456909845
+mem_heap_B=3876263
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=508371230
+mem_heap_B=4201479
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=566263959
+mem_heap_B=4567367
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=detailed
+n9: 4567367 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3292608 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 3292608 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 3292608 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 3292608 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 3292608 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 3292608 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 3292608 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 3292608 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 3292608 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 3292608 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 3292608 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 3292608 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 3292608 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n2: 362408 0x223892: PyObject_Malloc (in /usr/bin/python3.10)
+  n2: 362408 0x227F35: ??? (in /usr/bin/python3.10)
+   n2: 199784 0x2267E1: PyDict_SetDefault (in /usr/bin/python3.10)
+    n2: 147488 0x225FA1: PyUnicode_InternInPlace (in /usr/bin/python3.10)
+     n1: 147488 0x240B88: ??? (in /usr/bin/python3.10)
+      n1: 147488 0x2414E0: ??? (in /usr/bin/python3.10)
+       n1: 147488 0x240FE1: ??? (in /usr/bin/python3.10)
+        n1: 147488 0x24151E: ??? (in /usr/bin/python3.10)
+         n1: 147488 0x240FCB: ??? (in /usr/bin/python3.10)
+          n2: 147488 0x33C87F: ??? (in /usr/bin/python3.10)
+           n1: 147488 0x34C894: ??? (in /usr/bin/python3.10)
+            n1: 147488 0x261B33: ??? (in /usr/bin/python3.10)
+             n1: 147488 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+              n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+               n1: 147488 0x24C53B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                 n1: 147488 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 147488 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                    n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                     n1: 147488 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                      n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                       n1: 147488 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                        n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                         n1: 147488 0x261DC8: ??? (in /usr/bin/python3.10)
+                          n1: 147488 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                           n1: 147488 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                            n1: 147488 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                             n1: 147488 0x2479C5: ??? (in /usr/bin/python3.10)
+                              n0: 147488 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 52296 in 10 places, all below massif's threshold (1.00%)
+   n2: 162624 0x230273: ??? (in /usr/bin/python3.10)
+    n0: 99088 in 22 places, all below massif's threshold (1.00%)
+    n2: 63536 0x24C6F4: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+     n1: 63536 0x2479C5: ??? (in /usr/bin/python3.10)
+      n2: 63536 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+       n1: 60752 0x342E2C: ??? (in /usr/bin/python3.10)
+        n2: 60752 0x262C58: ??? (in /usr/bin/python3.10)
+         n1: 56336 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+          n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+           n1: 56336 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+            n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+             n1: 56336 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+              n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+               n1: 56336 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                 n1: 56336 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 56336 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 56336 0x261DC8: ??? (in /usr/bin/python3.10)
+                    n1: 56336 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                     n2: 56336 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                      n1: 49624 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                       n1: 49624 0x2479C5: ??? (in /usr/bin/python3.10)
+                        n2: 49624 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+                         n1: 47416 0x342E2C: ??? (in /usr/bin/python3.10)
+                          n1: 47416 0x262C58: ??? (in /usr/bin/python3.10)
+                           n1: 47416 0x24D5D6: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                            n1: 47416 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                             n1: 47416 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                              n0: 47416 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                         n0: 2208 in 1 place, below massif's threshold (1.00%)
+                      n0: 6712 in 1 place, below massif's threshold (1.00%)
+         n0: 4416 in 1 place, below massif's threshold (1.00%)
+       n0: 2784 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 262144 0x337BAF: ??? (in /usr/bin/python3.10)
+  n1: 262144 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 262144 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 262144 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 262144 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 262144 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 262144 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 262144 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 262144 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 136774 in 63 places, all below massif's threshold (1.00%)
+ n2: 134760 0x22FB30: PyType_GenericAlloc (in /usr/bin/python3.10)
+  n0: 80008 in 3 places, all below massif's threshold (1.00%)
+  n1: 54752 0x25928A: ??? (in /usr/bin/python3.10)
+   n0: 54752 in 2 places, all below massif's threshold (1.00%)
+ n1: 131072 0x337C29: ??? (in /usr/bin/python3.10)
+  n1: 131072 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 131072 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 131072 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 131072 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 131072 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 131072 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 131072 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 131072 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 113528 0x337315: PyInterpreterState_New (in /usr/bin/python3.10)
+  n1: 113528 0x3329F3: ??? (in /usr/bin/python3.10)
+   n1: 113528 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+    n1: 113528 0x33010F: ??? (in /usr/bin/python3.10)
+     n1: 113528 0x330054: ??? (in /usr/bin/python3.10)
+      n1: 113528 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+       n0: 113528 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 70585 0x22D2FA: PyMem_Malloc (in /usr/bin/python3.10)
+  n0: 70585 in 19 places, all below massif's threshold (1.00%)
+ n1: 63488 0x23D22C: ??? (in /usr/bin/python3.10)
+  n2: 63488 0x23C0F8: ??? (in /usr/bin/python3.10)
+   n1: 53248 0x2907F3: ??? (in /usr/bin/python3.10)
+    n1: 53248 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+     n1: 53248 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+      n1: 53248 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+       n1: 53248 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+        n1: 53248 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+         n1: 53248 0x2707F0: ??? (in /usr/bin/python3.10)
+          n1: 53248 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+           n1: 53248 0x2707F0: ??? (in /usr/bin/python3.10)
+            n0: 53248 in 2 places, all below massif's threshold (1.00%)
+   n0: 10240 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=631396672
+mem_heap_B=4978983
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=694497757
+mem_heap_B=4979751
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=704669897
+mem_heap_B=5442823
+mem_heap_extra_B=7033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=787102492
+mem_heap_B=5963783
+mem_heap_extra_B=8633
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=879840008
+mem_heap_B=6549863
+mem_heap_extra_B=8281
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=984169741
+mem_heap_B=7209191
+mem_heap_extra_B=8409
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1101538427
+mem_heap_B=7950951
+mem_heap_extra_B=8025
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1233581120
+mem_heap_B=8785415
+mem_heap_extra_B=9145
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1382126197
+mem_heap_B=9724199
+mem_heap_extra_B=8345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1436768183
+mem_heap_B=9725735
+mem_heap_extra_B=8345
+mem_stacks_B=0
+heap_tree=detailed
+n7: 9725735 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8448672 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 8448672 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 8448672 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 8448672 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 8448672 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 8448672 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 8448672 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 8448672 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 8448672 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 8448672 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 8448672 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 8448672 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 8448672 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n2: 362408 0x223892: PyObject_Malloc (in /usr/bin/python3.10)
+  n2: 362408 0x227F35: ??? (in /usr/bin/python3.10)
+   n2: 199784 0x2267E1: PyDict_SetDefault (in /usr/bin/python3.10)
+    n2: 147488 0x225FA1: PyUnicode_InternInPlace (in /usr/bin/python3.10)
+     n1: 147488 0x240B88: ??? (in /usr/bin/python3.10)
+      n1: 147488 0x2414E0: ??? (in /usr/bin/python3.10)
+       n1: 147488 0x240FE1: ??? (in /usr/bin/python3.10)
+        n1: 147488 0x24151E: ??? (in /usr/bin/python3.10)
+         n1: 147488 0x240FCB: ??? (in /usr/bin/python3.10)
+          n2: 147488 0x33C87F: ??? (in /usr/bin/python3.10)
+           n1: 147488 0x34C894: ??? (in /usr/bin/python3.10)
+            n1: 147488 0x261B33: ??? (in /usr/bin/python3.10)
+             n1: 147488 0x250CF9: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+              n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+               n1: 147488 0x24C53B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                 n1: 147488 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                  n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                   n1: 147488 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                    n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                     n1: 147488 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                      n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                       n1: 147488 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                        n1: 147488 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+                         n1: 147488 0x261DC8: ??? (in /usr/bin/python3.10)
+                          n1: 147488 0x3427CE: _PyObject_CallMethodIdObjArgs (in /usr/bin/python3.10)
+                           n1: 147488 0x2767E2: PyImport_ImportModuleLevelObject (in /usr/bin/python3.10)
+                            n1: 147488 0x24DEA2: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+                             n1: 147488 0x2479C5: ??? (in /usr/bin/python3.10)
+                              n0: 147488 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 52296 in 10 places, all below massif's threshold (1.00%)
+   n1: 162624 0x230273: ??? (in /usr/bin/python3.10)
+    n0: 162624 in 23 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 273151 in 65 places, all below massif's threshold (1.00%)
+ n1: 262144 0x337BAF: ??? (in /usr/bin/python3.10)
+  n1: 262144 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 262144 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 262144 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 262144 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 262144 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 262144 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 262144 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 262144 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 134760 0x22FB30: PyType_GenericAlloc (in /usr/bin/python3.10)
+  n0: 134760 in 4 places, all below massif's threshold (1.00%)
+ n1: 131072 0x337C29: ??? (in /usr/bin/python3.10)
+  n1: 131072 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 131072 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 131072 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 131072 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 131072 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 131072 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 131072 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 131072 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 113528 0x337315: PyInterpreterState_New (in /usr/bin/python3.10)
+  n1: 113528 0x3329F3: ??? (in /usr/bin/python3.10)
+   n1: 113528 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+    n1: 113528 0x33010F: ??? (in /usr/bin/python3.10)
+     n1: 113528 0x330054: ??? (in /usr/bin/python3.10)
+      n1: 113528 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+       n0: 113528 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+#-----------
+snapshot=41
+#-----------
+time=1549242092
+mem_heap_B=10781863
+mem_heap_extra_B=8985
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1737246193
+mem_heap_B=11969991
+mem_heap_extra_B=8697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1948747990
+mem_heap_B=13306663
+mem_heap_extra_B=7321
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2186692432
+mem_heap_B=14810407
+mem_heap_extra_B=10905
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=2454377827
+mem_heap_B=16502119
+mem_heap_extra_B=10841
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2755523731
+mem_heap_B=18405287
+mem_heap_extra_B=8217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=2902424615
+mem_heap_B=18408359
+mem_heap_extra_B=8217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=3094312496
+mem_heap_B=20549415
+mem_heap_extra_B=9369
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=3475447278
+mem_heap_B=22958119
+mem_heap_extra_B=9113
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=3904226815
+mem_heap_B=25667911
+mem_heap_extra_B=10873
+mem_stacks_B=0
+heap_tree=detailed
+n4: 25667911 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 24387776 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 24387776 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 24387776 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 24387776 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 24387776 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 24387776 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 24387776 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 24387776 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 24387776 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 24387776 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 24387776 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 24387776 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 24387776 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 655583 in 68 places, all below massif's threshold (1.00%)
+ n2: 362408 0x223892: PyObject_Malloc (in /usr/bin/python3.10)
+  n1: 362408 0x227F35: ??? (in /usr/bin/python3.10)
+   n0: 362408 in 2 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 262144 0x337BAF: ??? (in /usr/bin/python3.10)
+  n1: 262144 0x223BF8: ??? (in /usr/bin/python3.10)
+   n1: 262144 0x221B66: ??? (in /usr/bin/python3.10)
+    n1: 262144 0x332A87: ??? (in /usr/bin/python3.10)
+     n1: 262144 0x3327A6: Py_InitializeFromConfig (in /usr/bin/python3.10)
+      n1: 262144 0x33010F: ??? (in /usr/bin/python3.10)
+       n1: 262144 0x330054: ??? (in /usr/bin/python3.10)
+        n1: 262144 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+         n0: 262144 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+#-----------
+snapshot=51
+#-----------
+time=4386603849
+mem_heap_B=28716423
+mem_heap_extra_B=9785
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=4929277238
+mem_heap_B=32145991
+mem_heap_extra_B=8569
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=5539783329
+mem_heap_B=36004263
+mem_heap_extra_B=8729
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=5830831579
+mem_heap_B=36010407
+mem_heap_extra_B=8729
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=6226605692
+mem_heap_B=40350951
+mem_heap_extra_B=9945
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=6999276950
+mem_heap_B=45234087
+mem_heap_extra_B=9241
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=7868536300
+mem_heap_B=50727591
+mem_heap_extra_B=8473
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=8846448817
+mem_heap_B=56907783
+mem_heap_extra_B=9145
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=9946600353
+mem_heap_B=63860519
+mem_heap_extra_B=7321
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=11184274346
+mem_heap_B=71682343
+mem_heap_extra_B=8857
+mem_stacks_B=0
+heap_tree=detailed
+n2: 71682343 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70396064 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 70396064 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 70396064 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 70396064 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 70396064 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 70396064 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 70396064 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 70396064 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 70396064 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 70396064 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 70396064 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 70396064 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 70396064 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1286279 in 70 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=11723959051
+mem_heap_B=71694631
+mem_heap_extra_B=8857
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=12576660098
+mem_heap_B=80494183
+mem_heap_extra_B=7513
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=14143090362
+mem_heap_B=90393671
+mem_heap_extra_B=8057
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=14286334062
+mem_heap_B=90393671
+mem_heap_extra_B=8057
+mem_stacks_B=0
+heap_tree=peak
+n2: 90393671 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1298567 in 70 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=14537914376
+mem_heap_B=90331879
+mem_heap_extra_B=7985
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=14719534440
+mem_heap_B=90323529
+mem_heap_extra_B=7943
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=15302291548
+mem_heap_B=1215766
+mem_heap_extra_B=6754
+mem_stacks_B=0
+heap_tree=empty

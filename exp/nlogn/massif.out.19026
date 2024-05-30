@@ -1,0 +1,895 @@
+desc: (none)
+cmd: python3 nlogn.py
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=9218085774
+mem_heap_B=12053929
+mem_heap_extra_B=9191
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=23571552719
+mem_heap_B=28800361
+mem_heap_extra_B=10279
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=37729259181
+mem_heap_B=45318025
+mem_heap_extra_B=9735
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=47738660163
+mem_heap_B=56991721
+mem_heap_extra_B=9639
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=60406573045
+mem_heap_B=71766281
+mem_heap_extra_B=9351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=76439420324
+mem_heap_B=90477609
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=detailed
+n2: 90477609 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1382505 in 70 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=84639331213
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=98912984329
+mem_heap_B=90634393
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=detailed
+n2: 90634393 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1539289 in 71 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=117042447822
+mem_heap_B=90487905
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=130514651102
+mem_heap_B=90517209
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=detailed
+n2: 90517209 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1422105 in 71 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=149210420103
+mem_heap_B=90790641
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=160379153263
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=172837030323
+mem_heap_B=91103145
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=180457109761
+mem_heap_B=90487905
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=197921478796
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=210379469549
+mem_heap_B=91103145
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=224312949351
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=241503131537
+mem_heap_B=110478145
+mem_heap_extra_B=13295
+mem_stacks_B=0
+heap_tree=detailed
+n3: 110478145 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 20000000 0x2D0A4F: ??? (in /usr/bin/python3.10)
+  n1: 20000000 0x2FE757: ??? (in /usr/bin/python3.10)
+   n1: 20000000 0x24BC89: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 20000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+     n1: 20000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+      n1: 20000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+       n1: 20000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+        n1: 20000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+         n1: 20000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+          n1: 20000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+           n2: 20000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+            n1: 20000000 0x2479C5: ??? (in /usr/bin/python3.10)
+             n1: 20000000 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+              n1: 20000000 0x368107: ??? (in /usr/bin/python3.10)
+               n1: 20000000 0x3619CA: ??? (in /usr/bin/python3.10)
+                n1: 20000000 0x367E54: ??? (in /usr/bin/python3.10)
+                 n1: 20000000 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+                  n1: 20000000 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+                   n1: 20000000 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+                    n1: 20000000 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+                     n0: 20000000 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+            n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1383041 in 70 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=253148003680
+mem_heap_B=90483025
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=271036577468
+mem_heap_B=90483025
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=detailed
+n2: 90483025 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1387921 in 71 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=283102328987
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=294722161496
+mem_heap_B=90483025
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=306343923929
+mem_heap_B=90556273
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=320124954667
+mem_heap_B=95478145
+mem_heap_extra_B=9703
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=331765533325
+mem_heap_B=90483025
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=detailed
+n2: 90483025 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1387921 in 71 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=349654078421
+mem_heap_B=90483025
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=361719577010
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=detailed
+n2: 90478753 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1383649 in 71 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=373339307089
+mem_heap_B=90483025
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=384961059957
+mem_heap_B=90556273
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=398742123183
+mem_heap_B=95478145
+mem_heap_extra_B=9703
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=405801201167
+mem_heap_B=100478145
+mem_heap_extra_B=10919
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=419920442612
+mem_heap_B=130478145
+mem_heap_extra_B=9967
+mem_stacks_B=0
+heap_tree=detailed
+n3: 130478145 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 40000000 0x2D0A4F: ??? (in /usr/bin/python3.10)
+  n1: 40000000 0x2FE757: ??? (in /usr/bin/python3.10)
+   n1: 40000000 0x24BC89: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 40000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+     n1: 40000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+      n1: 40000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+       n1: 40000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+        n1: 40000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+         n2: 40000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+          n1: 40000000 0x2479C5: ??? (in /usr/bin/python3.10)
+           n1: 40000000 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+            n1: 40000000 0x368107: ??? (in /usr/bin/python3.10)
+             n1: 40000000 0x3619CA: ??? (in /usr/bin/python3.10)
+              n1: 40000000 0x367E54: ??? (in /usr/bin/python3.10)
+               n1: 40000000 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+                n1: 40000000 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+                 n1: 40000000 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+                  n1: 40000000 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+                   n0: 40000000 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1383041 in 70 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=433727193774
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=442791261737
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=455714647863
+mem_heap_B=91728145
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=473527533388
+mem_heap_B=90487905
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=481979228538
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=498551831030
+mem_heap_B=95478145
+mem_heap_extra_B=9703
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=509598747030
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=527487329725
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=536096648881
+mem_heap_B=92978145
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=555209785502
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=568927519242
+mem_heap_B=90479361
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=584228277185
+mem_heap_B=100478145
+mem_heap_extra_B=10919
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=600125032690
+mem_heap_B=90480585
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=620012820353
+mem_heap_B=91728145
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=635710759915
+mem_heap_B=90478753
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=647729412878
+mem_heap_B=90790641
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=664809209062
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=667573501093
+mem_heap_B=90479361
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=670337750240
+mem_heap_B=90478753
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=673151487385
+mem_heap_B=90556265
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=675917133645
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=678681409607
+mem_heap_B=90478753
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=681452247095
+mem_heap_B=90487913
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=684218151943
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=686983522825
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=detailed
+n2: 90478753 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1383649 in 71 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=689747972208
+mem_heap_B=90480585
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=692515119453
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=695280489486
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=698629837010
+mem_heap_B=91728145
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=701394714770
+mem_heap_B=90479369
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=704206673823
+mem_heap_B=90634393
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=706973768830
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=709741839536
+mem_heap_B=90517209
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=712516823570
+mem_heap_B=90497673
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=715283877397
+mem_heap_B=90478753
+mem_heap_extra_B=8567
+mem_stacks_B=0
+heap_tree=detailed
+n2: 90478753 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1383649 in 71 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=68
+#-----------
+time=718284069216
+mem_heap_B=91728145
+mem_heap_extra_B=8551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=721087615194
+mem_heap_B=90556265
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=723854646523
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=726787648541
+mem_heap_B=91103145
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=729590750951
+mem_heap_B=90556265
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=732357792383
+mem_heap_B=90478761
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=735290666431
+mem_heap_B=91103145
+mem_heap_extra_B=8559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=741466828493
+mem_heap_B=95478145
+mem_heap_extra_B=9703
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=748525905662
+mem_heap_B=100478145
+mem_heap_extra_B=10919
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=762645203586
+mem_heap_B=110478145
+mem_heap_extra_B=9255
+mem_stacks_B=0
+heap_tree=detailed
+n3: 110478145 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 20000000 0x2D0A4F: ??? (in /usr/bin/python3.10)
+  n1: 20000000 0x2FE757: ??? (in /usr/bin/python3.10)
+   n1: 20000000 0x24BC89: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 20000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+     n1: 20000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+      n1: 20000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+       n1: 20000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+        n1: 20000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+         n2: 20000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+          n1: 20000000 0x2479C5: ??? (in /usr/bin/python3.10)
+           n1: 20000000 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+            n1: 20000000 0x368107: ??? (in /usr/bin/python3.10)
+             n1: 20000000 0x3619CA: ??? (in /usr/bin/python3.10)
+              n1: 20000000 0x367E54: ??? (in /usr/bin/python3.10)
+               n1: 20000000 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+                n1: 20000000 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+                 n1: 20000000 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+                  n1: 20000000 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+                   n0: 20000000 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1383041 in 70 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=78
+#-----------
+time=790887293657
+mem_heap_B=170478145
+mem_heap_extra_B=11503
+mem_stacks_B=0
+heap_tree=peak
+n3: 170478145 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89095104 0x2723F9: ??? (in /usr/bin/python3.10)
+  n1: 89095104 0x26E2C9: ??? (in /usr/bin/python3.10)
+   n1: 89095104 0x24B45B: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 89095104 0x2479C5: ??? (in /usr/bin/python3.10)
+     n1: 89095104 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+      n1: 89095104 0x368107: ??? (in /usr/bin/python3.10)
+       n1: 89095104 0x3619CA: ??? (in /usr/bin/python3.10)
+        n1: 89095104 0x367E54: ??? (in /usr/bin/python3.10)
+         n1: 89095104 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+          n1: 89095104 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+           n1: 89095104 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+            n1: 89095104 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+             n0: 89095104 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+ n1: 80000000 0x2D0A4F: ??? (in /usr/bin/python3.10)
+  n1: 80000000 0x2FE757: ??? (in /usr/bin/python3.10)
+   n1: 80000000 0x24BC89: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+    n1: 80000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+     n1: 80000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+      n1: 80000000 0x2629FB: _PyFunction_Vectorcall (in /usr/bin/python3.10)
+       n2: 80000000 0x24B26C: _PyEval_EvalFrameDefault (in /usr/bin/python3.10)
+        n1: 80000000 0x2479C5: ??? (in /usr/bin/python3.10)
+         n1: 80000000 0x33D255: PyEval_EvalCode (in /usr/bin/python3.10)
+          n1: 80000000 0x368107: ??? (in /usr/bin/python3.10)
+           n1: 80000000 0x3619CA: ??? (in /usr/bin/python3.10)
+            n1: 80000000 0x367E54: ??? (in /usr/bin/python3.10)
+             n1: 80000000 0x367337: _PyRun_SimpleFileObject (in /usr/bin/python3.10)
+              n1: 80000000 0x366F82: _PyRun_AnyFileObject (in /usr/bin/python3.10)
+               n1: 80000000 0x359A5D: Py_RunMain (in /usr/bin/python3.10)
+                n1: 80000000 0x33002C: Py_BytesMain (in /usr/bin/python3.10)
+                 n0: 80000000 0x49C7D8F: (below main) (libc_start_call_main.h:58)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1383041 in 70 places, all below massif's threshold (1.00%)

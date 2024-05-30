@@ -1,0 +1,766 @@
+desc: (none)
+cmd: ./logn
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2315770
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2423961
+mem_heap_B=72708
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2424075
+mem_heap_B=72716
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=2424151
+mem_heap_B=72716
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=detailed
+n2: 72716 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 12 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=2424151
+mem_heap_B=72712
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2424244
+mem_heap_B=72728
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2424318
+mem_heap_B=72720
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2424422
+mem_heap_B=72752
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2424494
+mem_heap_B=72736
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=2424620
+mem_heap_B=72800
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=2424693
+mem_heap_B=72768
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=2424863
+mem_heap_B=72896
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2424936
+mem_heap_B=72832
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2425194
+mem_heap_B=73088
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 73088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 384 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=2425277
+mem_heap_B=72960
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2425711
+mem_heap_B=73472
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2425802
+mem_heap_B=73472
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 73472 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 768 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 768 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+#-----------
+snapshot=18
+#-----------
+time=2425802
+mem_heap_B=73216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2426588
+mem_heap_B=74240
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2426726
+mem_heap_B=74240
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 74240 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1536 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 1536 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+#-----------
+snapshot=21
+#-----------
+time=2426726
+mem_heap_B=73728
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2428216
+mem_heap_B=75776
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2428402
+mem_heap_B=75776
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 75776 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 3072 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 3072 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+#-----------
+snapshot=24
+#-----------
+time=2428402
+mem_heap_B=74752
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2431300
+mem_heap_B=78848
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2431582
+mem_heap_B=78848
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 78848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 6144 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 6144 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+#-----------
+snapshot=27
+#-----------
+time=2431582
+mem_heap_B=76800
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2437296
+mem_heap_B=84992
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2437768
+mem_heap_B=84992
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 84992 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 12288 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 12288 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+#-----------
+snapshot=30
+#-----------
+time=2437768
+mem_heap_B=80896
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2449114
+mem_heap_B=97280
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2449970
+mem_heap_B=97280
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 97280 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 24576 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 24576 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+#-----------
+snapshot=33
+#-----------
+time=2449970
+mem_heap_B=89088
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=2472580
+mem_heap_B=121856
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2488993
+mem_heap_B=121856
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 121856 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 49152 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 49152 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+#-----------
+snapshot=36
+#-----------
+time=2488993
+mem_heap_B=105472
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=2534131
+mem_heap_B=171008
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=2566960
+mem_heap_B=171008
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 171008 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 98304 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 98304 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+#-----------
+snapshot=39
+#-----------
+time=2566960
+mem_heap_B=138240
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=2657154
+mem_heap_B=269312
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=2722719
+mem_heap_B=269312
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 269312 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 196608 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 196608 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+#-----------
+snapshot=42
+#-----------
+time=2722719
+mem_heap_B=203776
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=2903025
+mem_heap_B=465920
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=3034158
+mem_heap_B=465920
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 465920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 393216 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 393216 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+#-----------
+snapshot=45
+#-----------
+time=3034158
+mem_heap_B=334848
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=3394688
+mem_heap_B=859136
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=3656861
+mem_heap_B=859136
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 859136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 786432 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 786432 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+#-----------
+snapshot=48
+#-----------
+time=3656861
+mem_heap_B=596992
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=4377839
+mem_heap_B=1645568
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=4902188
+mem_heap_B=1645568
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1645568 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1572864 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 1572864 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+#-----------
+snapshot=51
+#-----------
+time=4902188
+mem_heap_B=1121280
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=6344062
+mem_heap_B=3218432
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=6459674
+mem_heap_B=3218432
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 3218432 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3145728 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 3145728 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+#-----------
+snapshot=54
+#-----------
+time=6459674
+mem_heap_B=2169856
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=9343340
+mem_heap_B=6364160
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=9574280
+mem_heap_B=6364160
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=detailed
+n2: 6364160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6291456 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 6291456 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+#-----------
+snapshot=57
+#-----------
+time=9574280
+mem_heap_B=4267008
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=15341530
+mem_heap_B=12655616
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=15803126
+mem_heap_B=12655616
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 12655616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 12582912 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 12582912 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n0: 72704 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=15803126
+mem_heap_B=8461312
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=27337544
+mem_heap_B=25238528
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=28260452
+mem_heap_B=25238528
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 25238528 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 25165824 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 25165824 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n0: 72704 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=28260452
+mem_heap_B=16849920
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=51329206
+mem_heap_B=50404352
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=52776979
+mem_heap_B=50404352
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 50404352 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 50331648 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 50331648 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n0: 72704 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=66
+#-----------
+time=52776979
+mem_heap_B=33627136
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=98914405
+mem_heap_B=100736000
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=101809090
+mem_heap_B=100736000
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 100736000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 100663296 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 100663296 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n0: 72704 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=69
+#-----------
+time=101809090
+mem_heap_B=67181568
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=119535377
+mem_heap_B=107181568
+mem_heap_extra_B=5528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=122985486
+mem_heap_B=107181568
+mem_heap_extra_B=5528
+mem_stacks_B=0
+heap_tree=peak
+n3: 107181568 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 67108864 0x109762: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/teaguy21/Documents/exp/logn/logn)
+  n0: 67108864 0x109301: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n0: 40000000 0x10935D: main (in /home/teaguy21/Documents/exp/logn/logn)
+ n0: 72704 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=72
+#-----------
+time=122985486
+mem_heap_B=67181568
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=122997757
+mem_heap_B=67185664
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=122999977
+mem_heap_B=76800
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=123011388
+mem_heap_B=4096
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=123012492
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
